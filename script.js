@@ -1,6 +1,7 @@
 const responsiveDiv = document.getElementById('responsive');
 const hamBurger = document.getElementById('hamburger');
 const profileIcons = document.getElementById('my-profiles');
+const profileIcons1 = document.getElementById('my-profiles1');
 const footerProfileIcons = document.getElementById('footer-my-profiles');
 const skillsLink = document.getElementById('skills-link');
 const eduLink = document.getElementById('education-link');
@@ -61,6 +62,7 @@ const writeText = () => {
   //attache events
 hamBurger?.addEventListener('click', showMenus);
 profileIcons?.addEventListener('click', iconClick);
+profileIcons1?.addEventListener('click', iconClick);
 skillsLink?.addEventListener('click', linkClick);
 expLink?.addEventListener('click', linkClick);
 eduLink?.addEventListener('click', linkClick);

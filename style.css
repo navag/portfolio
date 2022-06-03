@@ -115,6 +115,11 @@ main {
   line-height: 2rem;
 }
 
+.resume a {
+  color: blue;
+  text-decoration: none;
+}
+
 .info {
   width: 100vw;
   margin: 2rem 0;
@@ -405,5 +410,9 @@ line-height: 2rem;
 
   .footer .container .footer-right .my-profiles {
     padding: 1rem;
+  }
+
+  .logo {
+    margin-left: 1rem;
   }
 }
